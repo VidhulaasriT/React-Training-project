@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;500;700&display=swap");
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #1e2835;
+  padding: 30px;
+  /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6); */
+  margin: 0px;
+}
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#navbar li {
+  list-style: none;
+  padding: 0 25px;
+  position: relative;
+  font-family: Outfit;
+}
+#navbar li a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #ffffff;
+  transition: 0.3s ease-in-out;
+}
+#navbar li a:hover::after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  background: #ffffff;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+.head1 {
+  font-size: 50px;
+  width: 100px;
+  color: #ffffff;
+  font-family: Outfit;
+  font-weight: bold;
+}
+.logo1 {
+  color: #ffffff;
+  font-family: Outfit;
+  font-size: 15px;
+  font-weight: bold;
+}
+.logo2 {
+  color: #ffffff;
+  font-family: Outfit;
+  font-size: 10px;
+}
+.column1 {
+  max-width: 110px;
+}
+.column2 {
+  padding-top: 20px;
+  padding-right: 500px;
+}
+.column3 {
+  padding-top: 25px;
+  margin-right: 10px;
+  max-width: 100%;
+}

@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;500;700&display=swap");
+
+.para2 {
+  background-color: #e9eaeb;
+  font-weight: bold;
+  font-family: Outfit;
+  font-size: 12px;
+  margin-bottom: 10px;
+  margin: 10px 700px;
+  border-radius: 10px;
+}
+.text3 {
+  font-weight: bold;
+  font-family: Outfit;
+  padding-bottom: 20px;
+}
+.top {
+  margin-top: 50px;
+}
+.Container5 {
+  margin-bottom: 200px;
+}
